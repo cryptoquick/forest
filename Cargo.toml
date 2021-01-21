@@ -63,3 +63,6 @@ commcid = { path = "./utils/commcid" }
 forest_vm = { path = "./vm" }
 forest_runtime = { path = "./vm/runtime" }
 forest_message = { path = "./vm/message" }
+
+fil-ocl-core = { git = "https://github.com/filecoin-project/ocl", rev = "3f1c95ba6bf477fd9761d5934fa45a42bd85458f" }
+fil-ocl = { git = "https://github.com/filecoin-project/ocl", rev = "3f1c95ba6bf477fd9761d5934fa45a42bd85458f" }

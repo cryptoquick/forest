@@ -1069,8 +1069,7 @@ dependencies = [
 [[package]]
 name = "cl-sys"
 version = "0.4.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e8573fa3ff8acd6c49e8e113296c54277e82376b96c6ca6307848632cce38e44"
+source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
 dependencies = [
  "libc",
 ]
@@ -1834,28 +1833,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "failure"
-version = "0.1.8"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d32e9bd16cc02eae7db7ef620b392808b89f6a5e16bb3497d159c6b92a0f4f86"
-dependencies = [
- "backtrace",
- "failure_derive",
-]
-
-[[package]]
-name = "failure_derive"
-version = "0.1.8"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aa4da3c766cd7a0db8242e326e9e4e081edd567072893ed320008189715366a4"
-dependencies = [
- "proc-macro2 1.0.24",
- "quote 1.0.8",
- "syn 1.0.58",
- "synstructure",
-]
-
-[[package]]
 name = "fake-simd"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1920,31 +1897,29 @@ dependencies = [
 [[package]]
 name = "fil-ocl"
 version = "0.19.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ae7dbdc8d931f2cc59e41062ea9caa57a57e0e05a8f844d62d303191f4cc4283"
+source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
 dependencies = [
- "failure",
  "fil-ocl-core",
  "futures 0.1.30",
  "nodrop",
  "num-traits 0.2.14",
  "qutex",
+ "thiserror",
 ]
 
 [[package]]
 name = "fil-ocl-core"
 version = "0.11.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ecd0aa5895d05824d7eaa38b999c91e9071acb74b304488220e8f8bb555d1ad1"
+source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
 dependencies = [
  "bitflags 1.2.1",
  "cl-sys",
  "enum_primitive",
- "failure",
  "num-complex 0.1.43",
  "num-traits 0.2.14",
  "ocl-core-vector",
  "rustc_version 0.1.7",
+ "thiserror",
 ]
 
 [[package]]
@@ -4545,10 +4520,9 @@ checksum = "8d3b63360ec3cb337817c2dbd47ab4a0f170d285d8e5a2064600f3def1402397"
 [[package]]
 name = "ocl-core-vector"
 version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b4072920739958adeec5abedec51af70febc58f7fff0601aaa0827c1f3c8fefd"
+source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
 dependencies = [
- "num",
+ "num-traits 0.2.14",
 ]
 
 [[package]]
