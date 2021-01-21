@@ -64,5 +64,5 @@ forest_vm = { path = "./vm" }
 forest_runtime = { path = "./vm/runtime" }
 forest_message = { path = "./vm/message" }
 
-fil-ocl-core = { git = "https://github.com/filecoin-project/ocl", rev = "3f1c95ba6bf477fd9761d5934fa45a42bd85458f" }
-fil-ocl = { git = "https://github.com/filecoin-project/ocl", rev = "3f1c95ba6bf477fd9761d5934fa45a42bd85458f" }
+fil-ocl-core = { git = "https://github.com/filecoin-project/ocl", rev = "530b07b2f679c06af1942820e81af355ff7e2f7e" }
+fil-ocl = { git = "https://github.com/filecoin-project/ocl", rev = "530b07b2f679c06af1942820e81af355ff7e2f7e" }

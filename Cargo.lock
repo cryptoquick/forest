@@ -1069,7 +1069,7 @@ dependencies = [
 [[package]]
 name = "cl-sys"
 version = "0.4.2"
-source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
+source = "git+https://github.com/filecoin-project/ocl?rev=530b07b2f679c06af1942820e81af355ff7e2f7e#530b07b2f679c06af1942820e81af355ff7e2f7e"
 dependencies = [
  "libc",
 ]
@@ -1897,7 +1897,7 @@ dependencies = [
 [[package]]
 name = "fil-ocl"
 version = "0.19.4"
-source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
+source = "git+https://github.com/filecoin-project/ocl?rev=530b07b2f679c06af1942820e81af355ff7e2f7e#530b07b2f679c06af1942820e81af355ff7e2f7e"
 dependencies = [
  "fil-ocl-core",
  "futures 0.1.30",
@@ -1910,7 +1910,7 @@ dependencies = [
 [[package]]
 name = "fil-ocl-core"
 version = "0.11.3"
-source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
+source = "git+https://github.com/filecoin-project/ocl?rev=530b07b2f679c06af1942820e81af355ff7e2f7e#530b07b2f679c06af1942820e81af355ff7e2f7e"
 dependencies = [
  "bitflags 1.2.1",
  "cl-sys",
@@ -4520,7 +4520,7 @@ checksum = "8d3b63360ec3cb337817c2dbd47ab4a0f170d285d8e5a2064600f3def1402397"
 [[package]]
 name = "ocl-core-vector"
 version = "0.1.0"
-source = "git+https://github.com/filecoin-project/ocl?rev=3f1c95ba6bf477fd9761d5934fa45a42bd85458f#3f1c95ba6bf477fd9761d5934fa45a42bd85458f"
+source = "git+https://github.com/filecoin-project/ocl?rev=530b07b2f679c06af1942820e81af355ff7e2f7e#530b07b2f679c06af1942820e81af355ff7e2f7e"
 dependencies = [
  "num-traits 0.2.14",
 ]
